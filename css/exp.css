@@ -1,0 +1,283 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+.main-container {
+    width: 100%;
+    overflow: hidden;
+    height: 100vh;
+    position: relative;
+}
+
+.vid-bg {
+    position: absolute;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+.navbar{
+    width: 100%;
+    top: 6%;
+    padding: 45px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    position: absolute;
+}
+.logo{
+    width: 150px;
+    float: left;
+    cursor: pointer;
+    color: #fff;
+    margin-left: 10vw;
+    position: absolute;
+}
+nav{
+    flex: 1;
+    text-align: right;
+    padding: 0;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #fff;
+    position:absolute;
+    left: 0;
+    bottom: -10px;
+}
+.menu{
+    width: 35px;
+    height: 5px;
+    background-color: #fff;
+    margin-left: 40px;
+    cursor: pointer;
+  }
+.navbar ul li:hover::after{
+    width: 100;
+    text-underline-position: below;
+    color: antiquewhite;
+}
+.centered {
+    position: absolute;
+    color: #fff;
+    top: 45%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+.center-text{
+    margin-left: 4%;
+    font-size: 70px;
+    font-family: Montserrat;
+    font-weight: lighter;
+}
+.center-p{
+    margin-left: 14px;
+    font-size: 70px;
+    font-family: Montserrat;
+    font-weight: lighter;
+}
+.bottom-left {
+    position: absolute;
+    bottom: 10%;
+    left: 15%;
+    color: silver;
+}
+.midpara{
+    /* width: 100%; */
+    padding: 50px 150px 50px 150px;    
+}
+.para{
+    text-align: center;
+    font-family: 'Lora', serif;
+    font-size: 35px;
+}
+.section2{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 150px 50px 150px ;
+}
+.exploretext{
+    font-family: Montserrat;
+    font-weight: lighter;
+}
+.waterImage{
+    float: right;
+}
+.scuba{
+    height: 680px;
+    
+}
+.text-muted{
+    font-size: 19px;
+}
+.pscuba{
+
+    margin-top: 60px;
+}
+.golf{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+}
+.golfimg{
+    position: relative;
+}
+.card{
+    padding: 0rem 2rem 1.5rem;
+    z-index: 2;
+    width: 18rem;
+    top: 85%;
+    left: 5%;
+    float: right;
+    background: white; 
+}
+p {
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+.card-text, .tracking .card-text, .golf .card-text {
+    font-size: 15px;
+    font-family: 'Padauk', sans-serif;
+    padding-top: 20px;
+    width: 245px;
+    color: #777;
+}
+.button {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    border: 1px solid #777;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 35px 0px;
+    width: 140px;
+    height: 50px;
+    cursor: pointer;
+}
+h5 {
+    margin-bottom: 1.5rem;
+    line-height: 1.4;
+    font-size: 50px;
+    font-family: gt-sectra;
+    font-weight: 200;
+    margin: 0;    
+    margin-top: 10%;
+    padding: 0;
+}
+.tracking{
+    padding: 50px 0;
+    
+}
+.tracking article {
+    padding-top: 10%;
+    width: 86%;
+    display: flex;
+    float: none;
+    flex-direction: row;
+    align-items: center;
+}
+.trackingImage{
+    float: right;
+}
+.wellness{
+    display: flex;
+}
+.footer{    
+    display: grid;
+    margin-top: 0;
+    height: fit-content;
+    width: 100%;
+    padding-top: 50px;
+    justify-content: center;
+}
+.footer1{
+    width: 100%;
+    height: 80%;
+    background: #161F1E;
+}
+.footer-logo{
+    width: 70px;
+    height: 70px;
+    padding-left: 8%;
+    padding-top: 8%;
+    color: #fff;
+}
+.getintouch{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
+}
+.footer-text{
+    color: #FFFFFFBF;
+    font-size:15.2354px;
+}
+.footercontact li{
+    color:  #FFFFFFBF;
+    font-size: 15.3px;
+    list-style-type: none;
+    line-height: 3rem;
+    margin-left: 90px;
+}
+.footercontact li a{
+    color:  #FFF;
+    text-align: right;
+}
+.footermenu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
+    bottom: 130px;
+    left: 300px;
+  
+}
+.footer-menu{
+    list-style-type: none;
+  
+}
+.footer-menu li a{
+    line-height: 3rem;
+    font-size: 15.3px;
+    color:  #FFF;
+  
+}
+.footermenu2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
+    bottom: 370px;
+    left: 500px;
+}
+.footer-menu2{
+    list-style-type: none;
+    line-height: 3rem;
+}
+.footer-menu2 li a{
+    font-size: 15.3px;
+    color:  #FFF;
+}
